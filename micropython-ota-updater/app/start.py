@@ -1,4 +1,4 @@
-print('Version 2 installed using USB') 
+
 from machine import Pin
 from time import sleep
 
@@ -11,3 +11,4 @@ for x in range (10):
     led.value(0)
     sleep(0.1)
     print("1")
+print('Version 2 installed using USB') 
